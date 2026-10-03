@@ -46,42 +46,9 @@ h1, h2, .logo-text, .button, .eyebrow {
   padding: 24px 16px;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo-mark {
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
-  background: var(--teal);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.logo-mark svg {
-  width: 33px;
-  height: 33px;
-}
-
 .logo-text {
-  position: relative;
   font-size: 22px;
   font-weight: 700;
-}
-
-.logo-dot {
-  position: absolute;
-  top: -6px;
-  right: -4px;
-  width: 5px;
-  height: 5px;
-  border-radius: 999px;
-  background: var(--teal);
 }
 
 .chip {
